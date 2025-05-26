@@ -1,55 +1,57 @@
 # Introduction to Deep Learning & Neural Networks with Keras - IBM  
 
-Este repositório contém os códigos e notebooks desenvolvidos durante o curso [Introduction to Deep Learning & Neural Networks with Keras](https://www.coursera.org/learn/introduction-to-deep-learning-with-keras/) oferecido pela IBM Skills Network através da Coursera.  
+This repository contains the code and notebooks developed during the course [Introduction to Deep Learning & Neural Networks with Keras](https://www.coursera.org/learn/introduction-to-deep-learning-with-keras/) offered by IBM Skills Network through Coursera.  
 
 <p align="center">
- <img src="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/assets/logos/SN_web_lightmode.png" title="book" width="400" />
+ <img src="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/assets/logos/SN_web_lightmode.png" title="IBM Skills Network" width="400" />
 </p>
 
+## About the Course  
+This course introduces the fundamentals of neural networks and deep learning, covering perceptrons, neural networks, and their various applications.  
+Throughout the course, supervised models such as Convolutional Neural Networks (CNNs) and Recurrent Neural Networks (RNNs) are explored, as well as unsupervised models like autoencoders and Restricted Boltzmann Machines.  
+Since the course lectures and labs are in English, all code has been kept in the same language for consistency.
 
-## 🔍 Sobre o Curso  
-Este curso apresenta os fundamentos das redes neurais e aprendizagem profunda, abordando o que são perceptrons, redes neurais e suas diversas aplicações. 
-Ao longo do curso são explorados modelos supervisionados, como redes neurais convolucionais (CNNs) e redes recorrentes (RNNs), além de modelos não supervisionados, como autoencoders e máquinas de Boltzmann restritas. <br/>
-Já que as aulas do curso e os laboratórios são em inglês, optei por deixar todos os código no mesmo idioma.
-
-## 📂 Estrutura do Repositório  
-Os arquivos de anotações Jupyter estão organizados por módulos, conforme o curso:  
+## Repository Structure  
+The Jupyter notebook files are organized by modules, following the course structure:  
 
 ```
-📁 Estrutura do repositório  
- ├── 📁 Módulo 1 - Introdução às redes neurais 
- ├── 📁 Módulo 2 - Noções básicas de aprendizado profundo 
- ├── 📁 Módulo 3 - Usando Keras  
- ├── 📁 Módulo 4 - Criando modelos de deep learning com Keras  
- ├── 📁 Módulo 5 - Projeto final  
- │   ├── 📝 Projeto - Classificação e descrição de danos em aeronaves
- ├── README.md  
+Repository Structure
+├── Module 1 - Introduction to Neural Networks
+├── Module 2 - Basics of Deep Learning
+├── Module 3 - Using Keras
+├── Module 4 - Building Deep Learning Models with Keras
+├── Module 5 - Final Project
+│ ├── Project - Aircraft Damage Classification and Description
+├── README.md
 ```
 
-## 🚀 Tecnologias Utilizadas  
+## Technologies Used  
 - **Python**  
 - **Jupyter Notebook**  
-- **Bibliotecas:** NumPy, Pandas, Tensorflow, Keras, Matplotlib, Seaborn  
+- **Libraries:** NumPy, Pandas, TensorFlow, Keras, Matplotlib, Seaborn  
 
-## 🎯 Projeto Final
-O projeto final do curso está na pasta do **Módulo 5**.  
-Ele demonstra a aplicação dos conceitos aprendidos ao longo do curso para classificar danos em aeronaves com redes convolucinais, assim como descrição das imagens usando transformers.
+## Final Project  
+The final project is located in the **Module 5** folder.  
+It demonstrates the application of concepts learned throughout the course to classify aircraft damage using Convolutional Neural Networks, as well as describe images using Transformer-based models.
 
-## 📌 Como Usar  
-1. Clone e acesse o repositório:  
+## How to Use  
+
+1. Clone and access the repository:  
    ```bash
    git clone https://github.com/phaa/ibm-intro-dl-with-keras.git
    cd ibm-ml-with-python/
    ```
-2. Ative o ambiente virtual (conda ou venv):  
+2. Activate your virtual environment (conda or venv):  
    ```bash
    conda activate ibmenv
    ```
-3. Execute os notebooks no Jupyter lab:  
+3. Run the notebooks with Jupyter Lab:  
    ```bash
    jupyter lab
    ```
-*Em cada notebook há uma célula para instalar as dependencias necessárias.* 
+   
+*Each notebook contains a cell with the necessary dependency installations.* 
 
-## 🏆 Contribuições  
-Este repositório é um registro do aprendizado do curso, mas sugestões e melhorias são sempre bem-vindas!  
+## Author
+
+[Pedro Azeveedo](https://www.linkedin.com/in/pedro-henrique-amorim-de-azevedo/)
